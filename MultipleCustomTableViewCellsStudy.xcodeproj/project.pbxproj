@@ -13,6 +13,9 @@
 		DECA5EEA287D737D00533D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECA5EE8287D737D00533D50 /* Main.storyboard */; };
 		DECA5EEC287D737E00533D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECA5EEB287D737E00533D50 /* Assets.xcassets */; };
 		DECA5EEF287D737E00533D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECA5EED287D737E00533D50 /* LaunchScreen.storyboard */; };
+		DECA5EF7287D746D00533D50 /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5EF6287D746D00533D50 /* SimpleTableViewCell.swift */; };
+		DECA5EFA287D74EA00533D50 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5EF8287D74E900533D50 /* ImageTableViewCell.swift */; };
+		DECA5EFB287D74EA00533D50 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DECA5EF9287D74E900533D50 /* ImageTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DECA5EEB287D737E00533D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DECA5EEE287D737E00533D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DECA5EF0287D737E00533D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECA5EF6287D746D00533D50 /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
+		DECA5EF8287D74E900533D50 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		DECA5EF9287D74E900533D50 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				DECA5EEB287D737E00533D50 /* Assets.xcassets */,
 				DECA5EED287D737E00533D50 /* LaunchScreen.storyboard */,
 				DECA5EF0287D737E00533D50 /* Info.plist */,
+				DECA5EF6287D746D00533D50 /* SimpleTableViewCell.swift */,
+				DECA5EF8287D74E900533D50 /* ImageTableViewCell.swift */,
+				DECA5EF9287D74E900533D50 /* ImageTableViewCell.xib */,
 			);
 			path = MultipleCustomTableViewCellsStudy;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DECA5EEF287D737E00533D50 /* LaunchScreen.storyboard in Resources */,
+				DECA5EFB287D74EA00533D50 /* ImageTableViewCell.xib in Resources */,
 				DECA5EEC287D737E00533D50 /* Assets.xcassets in Resources */,
 				DECA5EEA287D737D00533D50 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DECA5EE7287D737D00533D50 /* ViewController.swift in Sources */,
+				DECA5EF7287D746D00533D50 /* SimpleTableViewCell.swift in Sources */,
+				DECA5EFA287D74EA00533D50 /* ImageTableViewCell.swift in Sources */,
 				DECA5EE3287D737D00533D50 /* AppDelegate.swift in Sources */,
 				DECA5EE5287D737D00533D50 /* SceneDelegate.swift in Sources */,
 			);
