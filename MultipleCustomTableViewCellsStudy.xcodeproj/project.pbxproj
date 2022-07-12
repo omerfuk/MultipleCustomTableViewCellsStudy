@@ -16,6 +16,9 @@
 		DECA5EF7287D746D00533D50 /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5EF6287D746D00533D50 /* SimpleTableViewCell.swift */; };
 		DECA5EFA287D74EA00533D50 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5EF8287D74E900533D50 /* ImageTableViewCell.swift */; };
 		DECA5EFB287D74EA00533D50 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DECA5EF9287D74E900533D50 /* ImageTableViewCell.xib */; };
+		DECA5F00287D769400533D50 /* CenteredImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5EFE287D769400533D50 /* CenteredImageTableViewCell.swift */; };
+		DECA5F01287D769400533D50 /* CenteredImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DECA5EFF287D769400533D50 /* CenteredImageTableViewCell.xib */; };
+		DECA5F03287D788900533D50 /* CodedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5F02287D788900533D50 /* CodedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		DECA5EF6287D746D00533D50 /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
 		DECA5EF8287D74E900533D50 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		DECA5EF9287D74E900533D50 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		DECA5EFE287D769400533D50 /* CenteredImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredImageTableViewCell.swift; sourceTree = "<group>"; };
+		DECA5EFF287D769400533D50 /* CenteredImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CenteredImageTableViewCell.xib; sourceTree = "<group>"; };
+		DECA5F02287D788900533D50 /* CodedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 				DECA5EF6287D746D00533D50 /* SimpleTableViewCell.swift */,
 				DECA5EF8287D74E900533D50 /* ImageTableViewCell.swift */,
 				DECA5EF9287D74E900533D50 /* ImageTableViewCell.xib */,
+				DECA5EFE287D769400533D50 /* CenteredImageTableViewCell.swift */,
+				DECA5EFF287D769400533D50 /* CenteredImageTableViewCell.xib */,
+				DECA5F02287D788900533D50 /* CodedTableViewCell.swift */,
 			);
 			path = MultipleCustomTableViewCellsStudy;
 			sourceTree = "<group>";
@@ -138,6 +147,7 @@
 				DECA5EFB287D74EA00533D50 /* ImageTableViewCell.xib in Resources */,
 				DECA5EEC287D737E00533D50 /* Assets.xcassets in Resources */,
 				DECA5EEA287D737D00533D50 /* Main.storyboard in Resources */,
+				DECA5F01287D769400533D50 /* CenteredImageTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECA5F00287D769400533D50 /* CenteredImageTableViewCell.swift in Sources */,
 				DECA5EE7287D737D00533D50 /* ViewController.swift in Sources */,
+				DECA5F03287D788900533D50 /* CodedTableViewCell.swift in Sources */,
 				DECA5EF7287D746D00533D50 /* SimpleTableViewCell.swift in Sources */,
 				DECA5EFA287D74EA00533D50 /* ImageTableViewCell.swift in Sources */,
 				DECA5EE3287D737D00533D50 /* AppDelegate.swift in Sources */,

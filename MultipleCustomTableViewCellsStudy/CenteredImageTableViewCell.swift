@@ -1,5 +1,5 @@
 //
-//  ImageTableViewCell.swift
+//  CenteredImageTableViewCell.swift
 //  MultipleCustomTableViewCellsStudy
 //
 //  Created by Ömer Faruk Kılıçaslan on 12.07.2022.
@@ -7,24 +7,24 @@
 
 import UIKit
 
-class ImageTableViewCell: UITableViewCell {
+class CenteredImageTableViewCell: UITableViewCell {
     
-    @IBOutlet var myImageView: UIImageView!
+    @IBOutlet var myCenteredImageView: UIImageView!
     
-    static let identifier = "ImageTableViewCell"
+    static let identifier = "CenteredImageTableViewCell"
     
     static func nib() -> UINib {
         
-        return UINib(nibName: "ImageTableViewCell", bundle: nil)
+        return UINib(nibName: "CenteredImageTableViewCell", bundle: nil)
     }
     
     public func configure(with imageName: String) {
         
-        myImageView.image = UIImage(named: imageName)
-        myImageView.clipsToBounds = true
-        
-        
+        myCenteredImageView.image = UIImage(named: imageName)
+        myCenteredImageView.clipsToBounds = true
     }
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
